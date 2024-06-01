@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     
     reservas.push({
-      nome: formulario.cliente.value,
+      cliente: formulario.cliente.value,
       mesa: formulario.mesa.value,
       quantidade: formulario.quantidade.value,
       horario: formatarHorario(formulario.horario.value),
